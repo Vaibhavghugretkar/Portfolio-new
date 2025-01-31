@@ -1,7 +1,8 @@
 import { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import headerImg from "../assets/img/header-img.svg";
-import { ArrowRightCircle } from "react-bootstrap-icons";
+// import { ArrowRightCircle } from "react-bootstrap-icons";
+import {ArrowDownCircle} from "react-bootstrap-icons"
 import "animate.css";
 import TrackVisibility from "react-on-screen";
 
@@ -80,9 +81,31 @@ export const Banner = () => {
                     websites and applications. Explore my work and discover how
                     I can help you transform your digital ideas into reality.
                   </p>
-                  <button onClick={() => console.log("connect")}>
-                    Let’s Connect <ArrowRightCircle size={25} />
-                  </button>
+                 
+Wrap the text and icon inside a flex container to align them side by side. Try this:
+
+jsx
+Copy
+Edit
+<button
+  onClick={() => console.log("connect")}
+  style={{
+    border: "2px solid white",
+    padding: "10px",
+    borderRadius: "8px",
+    display: "flex",
+    alignItems: "center",
+    gap: "8px", // Adds space between text and icon
+  }}
+>
+  <a target="_blank"
+    href="https://drive.google.com/file/d/1k7xfZgoXCIDj6lYwrscyLfOht5LTtM3c/view?usp=sharing"
+    style={{ display: "flex", alignItems: "center", textDecoration: "none", color: "inherit" }}
+  >
+    RESUME
+    <ArrowDownCircle size={"25px"} />
+  </a>
+</button>
                 </div>
               )}
             </TrackVisibility>

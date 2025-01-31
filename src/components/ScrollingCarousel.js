@@ -7,10 +7,12 @@ const ScrollingCarousel = () => {
     "./assets/html.png",
     "./assets/css-3.png",
     "./assets/Tailwind CSS.png",
-    "./assets/programing.png",,
+    "./assets/programing.png",
+    "./assets/physics.png",
     "./assets/pngwing.com.png",
     "./assets/pngwing.com (1).png",
      "./assets/icons8-firebase-96.png",
+     "./assets/social.png",
      "./assets/github.png"
     
   ];
