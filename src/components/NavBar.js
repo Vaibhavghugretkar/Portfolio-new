@@ -77,7 +77,7 @@ export const NavBar = () => {
                 </a>
 
                 <a href="https://github.com/Vaibhavghugretkar" className="github-link">
-                <Github className="github-icon" style={{size:"25px"}}/>
+                <Github className="github-icon" style={{fontSize:"18px"}}/>
                 </a>
 
                 <a href="https://www.instagram.com/vaibhav_gh7/">

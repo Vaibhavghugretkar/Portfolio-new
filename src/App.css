@@ -551,6 +551,10 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   width: 100%;
 }
 
+.danger, .success {
+  color: white;  /* Text color */
+}
+
 /************ Footer Css ************/
 .footer {
   padding: 0 0 50px 0;

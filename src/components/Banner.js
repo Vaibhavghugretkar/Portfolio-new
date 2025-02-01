@@ -81,12 +81,6 @@ export const Banner = () => {
                     websites and applications. Explore my work and discover how
                     I can help you transform your digital ideas into reality.
                   </p>
-                 
-Wrap the text and icon inside a flex container to align them side by side. Try this:
-
-jsx
-Copy
-Edit
 <button
   onClick={() => console.log("connect")}
   style={{
