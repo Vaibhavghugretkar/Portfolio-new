@@ -5,6 +5,16 @@ const router = express.Router();
 const cors = require("cors");
 const nodemailer = require("nodemailer");
 
+const path = require("path");
+
+// Serve static files from the React build folder
+app.use(express.static(path.join(__dirname, "build")));
+
+// Handle any requests that don't match the API routes
+app.get("*", (req, res) => {
+  res.sendFile(path.join(__dirname, "build", "index.html"));
+});
+
 // Server setup
 const app = express();
 app.use(cors());
